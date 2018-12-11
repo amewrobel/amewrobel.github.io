@@ -1,0 +1,49 @@
+html {
+    background-image: url(242.jpg);
+}
+
+body {
+    width: 600px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Baskerville", serif;
+    border: 10px dotted #f4a941;
+    background-color: teal;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 3)
+}
+
+a {
+    font-size: 12pt;
+    font-family:"Gil Sans";
+    text-transform: uppercase;
+    color: #f49741;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: underline
+}
+
+h1 {
+
+    font-family: "Gil Sans", sans-serif;
+    font-size: 40pt;
+    color: #000;
+    border-top: 6px dotted #f4a941;
+    border-bottom: 6px dotted #f4a941;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 12pt;
+    line-height: 14pt;
+}
+
+img {
+    border: medium dashed #f4a941;
+
+}
