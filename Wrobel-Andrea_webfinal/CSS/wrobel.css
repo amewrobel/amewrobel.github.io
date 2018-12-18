@@ -1,0 +1,63 @@
+html {
+    background-color: #cc6d42;
+}
+
+body {
+    background-color: gainsboro;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14pt;
+    width: 800px;
+    height: auto;
+    padding: 30px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid gray;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 3);
+}
+
+h3 {
+    font-family: 'Delius Unicase', cursive;
+}
+
+img {
+    border: 2px solid gray;
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 15px;
+    align-content: center;
+    image-rendering: auto;
+}
+
+.column {
+    float: left;
+    width: 48%;
+    height: auto;
+    padding: 5px;
+    align-content: center;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a {
+    font-size: 14pt;
+    font-family: 'Delius Unicase', cursive;
+    color: #cc6d42;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border: 2px solid gray;
+    box-shadow: 3px 3px 15px;
+}
